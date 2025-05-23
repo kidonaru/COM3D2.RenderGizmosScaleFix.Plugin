@@ -18,6 +18,9 @@ v1.0.0.0
 
 ※BepInEx専用です。
 
+https://github.com/user-attachments/assets/ec4c7656-e7e5-42b1-9ae0-580eb1b97765
+
+
 
 ## インストール方法
 

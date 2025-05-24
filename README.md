@@ -5,6 +5,7 @@ v1.0.0.0
 - [COM3D2.RenderGizmosScaleFix.Plugin](#com3d2rendergizmosscalefixplugin)
   - [概要](#概要)
   - [インストール方法](#インストール方法)
+  - [推奨プラグイン](#推奨プラグイン)
   - [コンフィグファイル](#コンフィグファイル)
   - [変更履歴](#変更履歴)
     - [2025/05/24 v1.0.0.0](#20250524-v1000)
@@ -34,6 +35,15 @@ zip解凍後、`BepInEx\plugins`フォルダの中身を、COM3D2をインスト
   - プラグインの本体。
 
 COM3D2 Ver.2.38.0で動作確認済みです。
+
+
+## 推奨プラグイン
+
+- **COM3D2.MultipleMaidsGizmosFix.Plugin**
+  - https://github.com/kidonaru/COM3D2.MultipleMaidsGizmosFix.Plugin
+
+こちらは複数メイドのギズモの表示位置がずれる問題を修正するプラグインです。
+セットで使用すると快適になります。
 
 
 ## コンフィグファイル

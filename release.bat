@@ -16,7 +16,13 @@ if exist output rmdir /s /q output
 md output\%PLUGIN_NAME%
 
 xcopy BepInEx output\%PLUGIN_NAME%\BepInEx /E /I
-copy README.md output\%PLUGIN_NAME%\README.md
+
+set README_TXT=output\%PLUGIN_NAME%\README.txt
+echo このテキストはWeb上で見ることを推奨しています。 > %README_TXT%
+echo https://github.com/kidonaru/COM3D2.RenderGizmosScaleFix.Plugin/blob/master/README.md >> %README_TXT%
+echo. >> %README_TXT%
+echo. >> %README_TXT%
+type README.md >> %README_TXT%
 
 powershell Compress-Archive -Path "output\%PLUGIN_NAME%" -DestinationPath "output\%PLUGIN_NAME%-v%VERSION%.zip" -Force
 

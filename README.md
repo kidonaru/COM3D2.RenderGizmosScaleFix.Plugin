@@ -7,6 +7,7 @@ v1.0.0.0
   - [インストール方法](#インストール方法)
   - [推奨プラグイン](#推奨プラグイン)
   - [コンフィグファイル](#コンフィグファイル)
+  - [補足](#補足)
   - [変更履歴](#変更履歴)
     - [2025/05/24 v1.0.0.0](#20250524-v1000)
   - [規約](#規約)
@@ -58,6 +59,15 @@ COM3D2 Ver.2.38.0で動作確認済みです。
 # Default value: 0.25
 ScaleMultiplier = 0.25
 ```
+
+
+## 補足
+
+habeebweebさんの`gizmo_fov_distortion_fix`でも同じ修正が可能です (ScriptLoaderの導入が必要)
+
+`gizmo_interaction_fix`では複数のギズモが同時に反応してしまう問題も修正できます
+
+https://github.com/habeebweeb/com3d2_scripts
 
 
 ## 変更履歴
